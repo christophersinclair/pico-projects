@@ -25,6 +25,6 @@ int pico_gpio_init(int pin_number, int dir);
 * @param gpio_state HIGH or LOW digital out
 * @return void
 */
-int pico_set_gpio(int pin_number, bool gpio_state);
+void pico_set_gpio(int pin_number, bool gpio_state);
 
 #endif /* __MAIN_H__ */
